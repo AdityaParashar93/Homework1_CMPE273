@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>InputTypes</title>
+</head>
+<body>
+<form>
+Full Name:<br>
+<input type="text" name="fullname"><br>
+Enter your password:<br>
+<input type="password" name="password"><br>
+</form>
+</body>
+</html>

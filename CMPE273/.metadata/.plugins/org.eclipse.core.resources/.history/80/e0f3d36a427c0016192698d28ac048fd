@@ -1,0 +1,16 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+
+public class QueueTest {
+	
+	Queue q= new Queue();
+
+	@Test
+	public void testService() {
+		q.accept(0);
+		fail("Not yet implemented");
+	}
+
+}

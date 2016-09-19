@@ -1,0 +1,18 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+
+public class CollectionsTest {
+
+	@Test
+	public void testRepair() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testDispatch() {
+		fail("Not yet implemented");
+	}
+
+}

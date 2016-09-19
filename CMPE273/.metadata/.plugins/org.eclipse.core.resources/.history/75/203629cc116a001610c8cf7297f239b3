@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<script type="text/javascript" src="vars.js"></script>
+<title>Refresher Assingment</title>
+</head>
+<body>
+First Name: <input type="text" id="name"><br>
+Surname: <input type="text" id="surname"><br>
+Distance Traveled on Day 1:<input type="number" id="dist_1">
+Time of Travel on Day 1(in minutes):<input type="number" id="time_1"><br>
+Distance Traveled on Day 2:<input type="number" id="dist_2">
+Time of Travel on Day 2(in minutes):<input type="number" id="time_2"><br>
+Distance Traveled on Day 3:<input type="number" id="dist_3">
+Time of Travel on Day 3(in minutes):<input type="number" id="time_3"><br>
+
+
+<button onclick= "genAverage()">Generate OTP</button>
+<script type="text/javascript"></script>
+</body>
+</html>

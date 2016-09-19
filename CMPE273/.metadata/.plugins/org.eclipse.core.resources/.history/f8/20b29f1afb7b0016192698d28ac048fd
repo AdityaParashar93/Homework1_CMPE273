@@ -1,0 +1,59 @@
+import java.io.*;
+public class Generics
+{                         
+   public static < T,E,S> int  printArray( T[] name, E[] ordered_item , S[] Collection_Booth_id)
+   {
+      // Display array elements    
+	   int forTestPurpose=0;
+        System.out.println("Name of the Customers waiting in the Line"); 
+	   	for ( T element : name )
+        {        
+           forTestPurpose=0;
+	   		System.out.printf( "%s\n ", element );
+        }
+	   	forTestPurpose=1;
+	   	System.out.println("Orders of the Customers waiting in the Line");
+	   	for ( E element : ordered_item )
+        {        
+	   		forTestPurpose=0;
+            System.out.printf( "%s\n ", element );
+        }
+	   	forTestPurpose=1;
+	   	System.out.println("Order Collection booths of the Customers waiting in the Line"); 
+	   	for ( S element : Collection_Booth_id )
+        {
+	   		forTestPurpose=0;
+	   		System.out.printf( "%s\n ", element );
+        }
+	   	forTestPurpose=1;
+        System.out.println();
+        return forTestPurpose;
+    }
+
+    public static void main( String args[] )throws Exception
+    {
+    	int n;
+        System.out.println("Enter the number of the customers");
+        BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
+        n=Integer.parseInt(br.readLine());
+ 
+    	String name[] =new String[n];
+        String ordered_item[]=new String[n];
+        String Collection_Booth_id[] = new String[n];
+        for(int i=0;i<n;i++)
+        {
+        	name[i]=new String();
+        	ordered_item[i]=new String();
+        	System.out.println("Enter the name of the Customer");
+        	name[i]=br.readLine();
+        	System.out.println("Enter the name of the ordered item");
+        	ordered_item[i]=br.readLine();
+        	System.out.println("Enter the Collection Booth");
+        	Collection_Booth_id[i]=br.readLine();
+        	
+        }
+
+        System.out.println( "Orders to be dispenced:" );
+        printArray( name,ordered_item,Collection_Booth_id); 
+    } 
+}

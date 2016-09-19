@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Displaying one student's record</h2>
+
+<p id="demo1"></p>
+
+<script>
+var text = '{"student":[' +
+'{"firstName":"Jay","lastName":"Nirgudkar" },' +
+'{"firstName":"Aditya","lastName":"Parashar" },' +
+'{"firstName":"Sagar","lastName":"Mane" }]}';
+
+obj = JSON.parse(text);
+
+document.getElementById("demo1").innerHTML =obj.student[1].firstName + " " + obj.student[1].lastName;
+
+
+</script>
+
+</body>
+</html>

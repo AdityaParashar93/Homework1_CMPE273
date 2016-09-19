@@ -1,0 +1,13 @@
+/**
+ * 
+ */
+function encry()
+{
+	var msg=document.getElementById("msg").value;
+	var temp=msg.length;
+	var temp2="";
+	for(int i=msg.length;i>0;i--)
+	{
+		temp2=temp2+msg.charAt(i);
+	}
+};

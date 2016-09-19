@@ -1,0 +1,18 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+
+public class arraysTest1 {
+
+	@Test
+	public void testCheck() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testReleaseVehicles() {
+		fail("Not yet implemented");
+	}
+
+}

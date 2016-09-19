@@ -1,0 +1,26 @@
+<script type="text/javascript">
+function division()
+{
+	var Num1=Number(prompt("Please enter Numerator"));
+	var Num2=Number(prompt("Please enter denominator"));
+	try
+	{
+		if (Num2 == 0 )
+		{
+			throw{
+				error: "Divide By Zero Error",
+				message: "Number Can Not be divivded by Zero"
+			}
+		}
+		else
+		{
+			document.write("Answer is:\t"+(Num1/Num2)+"<br/>");
+		}
+	}
+	catch(e)
+	{
+		document.write("Error :"+e.error+"<br/>"+"Messgae :"+e.message);
+	}
+}
+division();
+</script>

@@ -1,0 +1,37 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+
+public class arraysTest {
+
+	arrays a=new arrays();
+	
+	public void testArrays() {
+		
+	}
+
+	
+
+
+		public void testCheck()throws Exception 
+		{
+				int expected=1;
+				assertEquals(expected, a.check());
+					
+		}
+
+
+		public void testReleaseVehicles()
+		{
+			int expected=1;
+			assertEquals(expected, a.releaseVehicles());
+		}
+	
+
+	@Test
+	public void testMain() {
+		fail("Not yet implemented");
+	}
+
+}

@@ -1,0 +1,17 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+
+public class Fulltime_EmployeesTest {
+
+	Fulltime_Employees f=new Fulltime_Employees();
+	
+	@Test
+	public void testForTestPurpose() 
+	{
+		int expected=1;
+		
+	}
+
+}

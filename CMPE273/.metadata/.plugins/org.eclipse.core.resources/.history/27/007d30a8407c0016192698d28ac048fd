@@ -1,0 +1,55 @@
+import java.io.*;
+
+public class Queue 
+{
+	int a; 
+	String name;
+	
+	Queue()
+	{
+		a=0;
+		name=new String();
+	}
+	void accept(int i)throws Exception
+	{
+		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
+		a=i+1;
+		name=br.readLine();
+	}
+	int service()
+	{
+		int temp=0;
+		if(temp!=0)
+		{
+			System.out.println("Appointment id"+(i)+"\t"+name+"has been provided with service.");	
+		}
+
+	}
+	
+	public static void main(String[] args)throws Exception 
+	{
+		int n;
+		Queue q[];
+		System.out.println("Enter the number of Customers who already has been given the appointments:\t");
+		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
+		n=Integer.parseInt(br.readLine());
+		q=new Queue[n];
+		for(int i=0;i<n;i++)
+		{
+			System.out.println("Enter the Customer's appointment id and name:\t"+(i+1));
+			q[i]=new Queue();
+			q[i].accept(i);
+		}
+		int temp=0;
+		int i=0;
+	    int c=1;
+		while(i<=5 && c==1)
+		{
+			q[i-1].service();
+			System.out.println("Press 1 key to call the next customer in queue");
+			c=Integer.parseInt(br.readLine());
+			temp=1;
+			i++;	
+		}
+	}
+}

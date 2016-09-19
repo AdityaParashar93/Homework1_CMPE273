@@ -1,0 +1,48 @@
+import java.io.*;
+//import java.util.*;
+public class Generics
+{
+   // generic method printArray                         
+   public static < T,E,S,V> void printArray( T[] name, E[] ordered_item , S[] Collection_Booth_id, V[] bill_amount)
+   {
+      // Display array elements              
+         for ( T element : name ){        
+            System.out.printf( "%s ", element );
+         }
+         System.out.println();
+    }
+
+    public static void main( String args[] )throws Exception
+    {
+        String name[] =new String[5];
+        String ordered_item[]=new String[5];
+        char Collection_Booth_id[] = new char[5];
+        int bill_amount[]=new int[5];
+        BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
+        for(int i=0;i<5;i++)
+        {
+        	name[i]=new String();
+        	ordered_item[i]=new String();
+        	System.out.println("Enter the name of the Customer");
+        	name[i]=br.readLine();
+        	System.out.println("Enter the name of the ordered item");
+        	ordered_item[i]=br.readLine();
+        	System.out.println("Enter the Collection Booth");
+        	Collection_Booth_id[i]=br.readLine().charAt(0);
+        	System.out.println("Enter the amount of the receipt");
+        	bill_amount[i]=Integer.parseInt(br.readLine());
+        	
+        }
+
+        System.out.println( "Array integerArray contains:" );
+        printArray( name,ordered_item,Collection_Booth_id,bill_amount ); 
+    } 
+}
+/*public class Generics {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}*/

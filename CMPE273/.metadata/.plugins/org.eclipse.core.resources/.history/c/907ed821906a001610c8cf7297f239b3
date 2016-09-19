@@ -1,0 +1,19 @@
+/**
+ * 
+ */
+function genAverage()
+{
+	var ave=new Object();
+	ave.name=document.getElementById("name").value;
+	ave.surname=document.getElementById("surname").value;
+	ave.dist_1=parseInt(document.getElementById("dist_1").value);
+	ave.dist_2=parseInt(document.getElementById("dist_2").value);
+	ave.dist_3=parseInt(document.getElementById("dist_3").value);
+	ave.time_1=parseInt(document.getElementById("time_1").value);
+	ave.time_2=parseInt(document.getElementById("time_2").value);
+	ave.time_3=parseInt(document.getElementById("time_3").value);
+	var temp=new Number();
+	temp=Number(dist_1)+Number(dist_2)+Number(dist_3);
+	//var temp1=(Number(dist_1)+Number(dist2)+Number(dist_3))/(Number(time_1)+Number(time_2)+Number(time_3));
+	document.write(ave.name+"\t"+ave.surname+"\t"+(ave.dist_1).toString()+"\t"+(ave.dist_2).toString()+"\t"+(ave.dist_3).toString()+"\t"+temp.toString());
+};

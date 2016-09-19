@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+function calc()
+{
+	int A;
+		document.getElementById("Output")=parseInt(document.getElementById("field1").value)+parseInt(document.getElementById("field2").value));
+document.write("<p1>A</p1>");
+};

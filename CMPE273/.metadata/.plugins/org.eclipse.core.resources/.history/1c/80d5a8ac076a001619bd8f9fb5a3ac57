@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<script type="text/javascript" src="RefresherAssingment.js"></script>
+<title>Refresher Assingment</title>
+</head>
+<body>
+First Name: <input type="text" id="name"><br>
+Surname: <input type="text" id="surname"><br>
+Telephone Number:<input type="number" id="telnum"><br>
+Email ID:<input type="email" id="email"><br>
+
+<button onclick= "calc()">Addition</button>
+<script type="text/javascript"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+/**
+ * 
+ */
+function genObjects()
+{
+	var ave=new Object();
+	ave.name=document.getElementById("name").value;
+	
+	
+	
+};

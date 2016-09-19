@@ -1,0 +1,33 @@
+
+public class TollBooth implements Runnable 
+{
+	Thread t;
+	
+	public void run() 
+	{
+		t=new Thread();
+		try
+		{
+			System.out.println("Waiting for next car");
+			t.wait(100);
+			System.out.println("Collecting Toll");
+			t.wait(100);
+			System.out.println("Releasing Car from BOoth");
+			t.wait(100);
+			
+		}
+		catch(InterruptedException E)
+		{
+			System.out.println("TollBooth interrupted.");
+		}
+		
+	
+	}
+
+	public static void main(String[] args)throws Exception 
+	{
+		TollBooth t1,t2,t3;
+		t1=new TollBooth();
+	}
+
+}

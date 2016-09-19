@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+function encry()
+{
+	var msg=document.getElementById("msg").value;
+	string msg1=msg;
+	document.write(msg);
+};

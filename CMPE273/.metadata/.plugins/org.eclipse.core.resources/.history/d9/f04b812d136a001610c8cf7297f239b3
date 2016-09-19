@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+function genObjects()
+{
+	vars Average={
+		name=getElementByid("name").value;
+	};
+}

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<script type="text/javascript" src="RefresherAssingment"></script>
+<title>Refresher Assingment</title>
+</head>
+<body>
+Input Number #1: <input type="number" id="field1"><br>
+Input Number #2: <input type="number" id="field2"><br>
+<p id="Output"></p>
+
+<button onclick= "calc()">Addition</button>
+<script type="text/javascript">
+</script>
+</body>
+</html>

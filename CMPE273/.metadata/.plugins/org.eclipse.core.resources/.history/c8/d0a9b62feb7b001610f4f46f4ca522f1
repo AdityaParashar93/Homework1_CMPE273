@@ -1,0 +1,22 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+
+public class arraysTest
+{
+	arrays a=new arrays();
+
+	public void testCheck() 
+	{
+			int expected=1;
+			assertEquals(expected, a.check());
+	}
+
+
+	public void testReleaseVehicles()
+	{
+		
+	}
+
+}

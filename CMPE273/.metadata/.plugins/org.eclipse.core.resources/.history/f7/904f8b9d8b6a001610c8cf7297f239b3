@@ -1,0 +1,10 @@
+/**
+ * 
+ */
+function genObjects()
+{
+	var Ave=new Object();
+	Ave.name=document.getElementById("name");
+	
+	
+};

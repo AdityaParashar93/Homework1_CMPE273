@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Geolocation</title>
+<style>
+#mapdiv {
+	margin: 20;
+	padding: 20;
+	width: 700px;
+	height: 700px;
+}
+</style>
+
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=true"></script>
+<script>
+	var watchId = null;
+	function geoloc() 
+	{
+		if (navigator.geolocation) 
+		{
+			var optn = {
+							enableHighAccuracy : true,
+							timeout : Infinity,
+							maximumAge : 0
+						};
+			watchId = navigator.geolocation.watchPosition(showPosition, showError, optn);
+		} 
+		else 
+		{
+			alert('Geolocation is not supported in your browser');
+		}
+	}
+
+
+				</script>
+
+	</head>
+	<body onload="geoloc()">
+		<p id = 'mapdiv'></p>
+		<button onclick="stopWatch()">
+			Stop
+		</button>
+	</body>
+</html>

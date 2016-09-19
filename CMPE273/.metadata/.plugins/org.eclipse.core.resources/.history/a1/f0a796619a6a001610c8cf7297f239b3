@@ -1,0 +1,19 @@
+/**
+ * 
+ */
+function encry()
+{
+	var msg=document.getElementById("msg").value;
+	var i;
+	var encrypted_msg="";
+	var decrypted_msg="";
+	for(i=msg.length;i>=0;i--)
+	{
+		temp2=temp2+msg.charAt(i);
+	};
+	for(i=temp2.length;i>=0;i--)
+	{
+		temp2=temp2+msg.charAt(i);
+	};
+	document.write(temp2);
+};

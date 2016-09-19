@@ -1,0 +1,4 @@
+
+public interface Employees {
+	int calculate_pay();
+}

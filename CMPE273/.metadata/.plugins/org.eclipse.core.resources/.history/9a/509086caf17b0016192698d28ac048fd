@@ -1,0 +1,19 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+
+public class CollectionsTest {
+Collections a=new Collections();
+	@Test
+	public void testRepair() {
+		int expected=1;
+		assertEquals(expected, a.chec());
+	}
+
+	@Test
+	public void testDispatch() {
+		fail("Not yet implemented");
+	}
+
+}

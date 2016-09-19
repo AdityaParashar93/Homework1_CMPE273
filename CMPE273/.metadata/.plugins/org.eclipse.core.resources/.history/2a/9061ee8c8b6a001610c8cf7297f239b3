@@ -1,0 +1,8 @@
+/**
+ * 
+ */
+function genObjects()
+{
+	var Ave=new Object();
+	
+};

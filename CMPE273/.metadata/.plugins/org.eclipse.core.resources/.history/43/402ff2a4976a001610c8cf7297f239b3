@@ -1,0 +1,7 @@
+/**
+ * 
+ */
+function encry()
+{
+	var msg=document.getElementById("msg")
+};

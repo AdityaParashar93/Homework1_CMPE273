@@ -1,0 +1,13 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+
+public class Fulltime_EmployeesTest {
+
+	@Test
+	public void testMain() {
+		int expected=1;
+	}
+
+}

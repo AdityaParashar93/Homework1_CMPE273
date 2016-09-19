@@ -1,0 +1,13 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+
+public class HighwayTest {
+
+	@Test
+	public void testTest() {
+		fail("Not yet implemented");
+	}
+
+}

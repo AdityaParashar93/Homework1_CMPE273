@@ -1,0 +1,11 @@
+/**
+ * 
+ */
+function genObjects()
+{
+	vars Ave={
+		name=getElementByid("name").value;
+		surname=getElementByid("surname").value;
+		
+	};
+};

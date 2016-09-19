@@ -1,0 +1,13 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+
+public class HighwayTest {
+
+	@Test
+	public void testTest() {
+		assertEquals(1, Highway.Test(t));
+	}
+
+}

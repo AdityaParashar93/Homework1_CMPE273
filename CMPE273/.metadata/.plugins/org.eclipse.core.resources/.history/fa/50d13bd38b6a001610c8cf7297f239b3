@@ -1,0 +1,15 @@
+/**
+ * 
+ */
+function genObjects()
+{
+	var ave=new Object();
+	ave.name=document.getElementById("name").value;
+	ave.surname=document.getElementById("surname").value;
+	ave.name=document.getElementById("name").value;
+	ave.name=document.getElementById("name").value;
+	ave.name=document.getElementById("name").value;
+	
+	
+	
+};

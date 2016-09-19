@@ -1,0 +1,21 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+
+public class arraysTest
+{
+	arrays a=new arrays();
+
+	public void testCheck() 
+	{
+			
+	}
+
+
+	public void testReleaseVehicles()
+	{
+		
+	}
+
+}

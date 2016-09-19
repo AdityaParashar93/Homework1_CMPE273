@@ -1,0 +1,10 @@
+INDEX VERSION 1.3+F:\Fall 2016\273 EDS\Assingments\CMPE273\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1866340238.index
+4145503076.index
+172382900.index
+3212150459.index
+3254197949.index
+1837286681.index
+1258303331.index
+1940289114.index
+622970352.index

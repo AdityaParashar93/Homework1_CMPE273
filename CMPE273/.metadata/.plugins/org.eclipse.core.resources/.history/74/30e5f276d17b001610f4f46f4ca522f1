@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>InputTypes</title>
+</head>
+<body>
+<form>
+Full Name:<br>
+<input type="text" name="fullname"><br>
+Enter your password:<br>
+<input type="password" name="password"><br>
+Enter your password:<br>
+<input type="password" name="password"><br>
+Gender<br>
+<input type="radio" name="gender" value="male" checked> Male<br>
+<input type="radio" name="gender" value="female"> Female<br>
+<input type="radio" name="gender" value="other"> Other<br>
+Modes of transport you like to use:<br>
+<input type="checkbox" name="vehicle1" value="Bike"> I like bike<br>
+<input type="checkbox" name="vehicle2" value="Car"> I like car<br>
+<input type="checkbox" name="vehicle3" value="Rail"> I like Railway<br>
+<input type="checkbox" name="vehicle4" value="Bus"> I like Bus<br>
+<input type="checkbox" name="vehicle4" value="Airplane"> I like Airplane<br>
+Birthday:<br>
+<input type="date" name="bday"><br>
+Select your car's color:<br>
+<input type="color" name="favcolor" value="#ff0000"><br>
+Enter your E-mail id:<br>
+<input type="email" name="email"><br>
+Telephone:<br>
+<input type="tel" name="usrtel"><br>
+Add your Websites URL:<br>
+<input type="url" name="homepage"><br>
+</form>
+</body>
+</html>

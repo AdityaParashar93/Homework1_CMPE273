@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<script type="text/javascript" src="RefresherAssingment.js"></script>
+<title>Refresher Assingment</title>
+</head>
+<body>
+First Name: <input type="text" id="name"><br>
+Surname: <input type="text" id="surname"><br>
+Telephone Number:<input type="tel" id="telnum"><br>
+Email ID:<input type="email" id="email"><br>
+
+<button onclick= "genOTP()">Generate OTP</button>
+<script type="text/javascript"></script>
+</body>
+</html>

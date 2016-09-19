@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+function calc()
+{
+	var A;
+	A=document.getElementById("field1").value+document.getElementById("field2").value;
+	document.write("<p1>A</p1>");
+};
